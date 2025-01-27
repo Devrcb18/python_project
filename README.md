@@ -1,13 +1,11 @@
 # python_project
-This repository contains beginner-level Python projects created by me(Devansh Shukla) ,first year undergrad at IIIT Kalyani aspiring to become an aeronautic and robotics engineer. These projects demonstrate my growing interest in programming, problem-solving, and automation. 
+This repository contains beginner-level Python projects created by me (Devansh Shukla) ,first year undergrad at IIIT Kalyani aspiring to become an aeronautic and robotics engineer. These projects demonstrate my growing interest in programming, problem-solving, and automation. 
 Projects includes:
 
- 1)Scissor-Paper-Rock Game ✂️📝🪨
- 
-   It is a simple yet beautiful implementation of this old game where user can challenge against computer.
+ # Scissor-Paper-Rock Game ✂️📝🪨
+ It is a simple yet beautiful implementation of this old game where user can challenge against computer.
    
-   Follow the on-screen prompts:
-
+   ## Follow the on-screen prompts:
           -Enter your choice:
             -1: Scissors ✂️
             0: Rock 🪨
@@ -19,16 +17,15 @@ Projects includes:
           -Rock beats Scissors.
           -Ties are resolved with retries.
           
-   Tools used:
+   ## Tools used:
+        #random(generating number which are linked to rock scissors and paper)
+         
+        #emoji(studied and implemented using the documentation:https://pypi.org/project/emoji/)
+
    
-    #random(generating number which are linked to rock scissors and paper)
+ # Guess the Number Game 🎮
 
-    #emoji(studied and implemented using the documentation:https://pypi.org/project/emoji/)
-
-   
- 2)Guess the Number Game 🎮
-
- Features are--
+ ## Features are--
  
      -Single-Player Turns: Two players can play independently, one after the other.
      -Score Tracking: Saves scores in a file named scorebook.txt.
@@ -36,7 +33,7 @@ Projects includes:
      -Clear Scores: Reset the score history whenever desired.
      -Friendly User Interface: Easy-to-follow instructions and error handling.
 
-Follow the on-screen prompts:
+## Follow the on-screen prompts:
 
       Enter names for Player 1 and Player 2.
       Choose an option from the menu:
@@ -45,10 +42,10 @@ Follow the on-screen prompts:
       3: View the scorecard.
       4: Clear all previous scores.
       5: Exit the game.
-   
-3)Peter: A Simple Voice Assistant 🎙️
+  
+ # Peter: A Simple Voice Assistant 🎙️
 
-   Features of PETER-
+   ## Features of PETER-
    
          -Voice Commands: Responds to voice commands to perform tasks.
          -Web Browsing:
@@ -61,7 +58,7 @@ Follow the on-screen prompts:
          -Customizable Responses: Modify the responses and voice rate easily.
 
       
-   *liberaries used:
+   ## Liberaries used:
    
       -Datetime
       -Webbrowser
@@ -70,3 +67,26 @@ Follow the on-screen prompts:
       -Os
       -Pyjokes
       -Googlesearch
+# Quantum Mechanics: Particle in a 1D Box ⚛️
+
+This project models a quantum particle in a one-dimensional infinite potential well (also known as a "particle in a box"). The program calculates and visualizes:
+- The energy levels of the particle based on the principal quantum number (`n`).
+- The probability density function of the particle in a specified range within the box.
+
+The results are visualized through two plots:
+1. **Energy vs Principal Quantum Number**: Displays the energy levels of the particle.
+2. **Probability Density**: Shows the probability density of finding the particle at a specific position.
+
+## Features
+- **Energy Calculation**: Computes the energy for a given quantum number `n` using the formula for a particle in a box.
+- **Probability Density Plot**: Visualizes the probability density of finding the particle at different positions within the box.
+- **User Input**: Allows users to define the length of the box (`l`), the principal quantum number (`n`), and the region of observation (`a` to `b`).
+
+## Prerequisites
+To run this project, you need the following:
+- Python 3.x
+- Required libraries: `numpy`, `matplotlib`, and `scipy`
+
+Install the required libraries using:
+```bash
+pip install numpy matplotlib scipy
